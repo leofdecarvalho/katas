@@ -27,7 +27,7 @@
     },
     "livePreview.defaultPreviewPath": "/htmlcov/index.html",
     "python.testing.pytestArgs": [
-        "."
+        "tests"
     ],
     "cSpell.words": [
         "simpy"
