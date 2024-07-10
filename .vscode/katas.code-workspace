@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "katas",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.fontSize": 14
+	}
+}
