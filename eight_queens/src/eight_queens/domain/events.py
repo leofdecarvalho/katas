@@ -6,7 +6,7 @@ class Event:
 
 @dataclass
 class SomeEvent(Event):
-    someField: str
+    someField: str = None
     
 @dataclass
 class BatchEvent(Event):

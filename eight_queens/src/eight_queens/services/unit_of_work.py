@@ -80,7 +80,7 @@ class UnitOfWork:
         
         
 class UOWManager:
-    batchSize: bool = True
+    singleEvent: bool = True
     uows: set[UnitOfWork]
     
     def __init__(self):
@@ -94,7 +94,7 @@ class UOWManager:
     
     def _getEvent(self, model):
 
-        if self.batchSize is None:
+        if self.singleEvent:
             return self._getSingleEvent(model)
         else:
             return self._getBatchEvent(model)
