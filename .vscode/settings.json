@@ -10,7 +10,6 @@
         "__init__.py": true,
         "**/__pycache__": true,
         "__pycache__": true,
-        "src/smart_router_simulation/service_layer/__pycache__": true,
         "tests/.pytest_cache": true,
         "**/.pytest_cache": true,
         ".pytest_cache": true
@@ -31,5 +30,5 @@
     ],
     "cSpell.words": [
         "simpy"
-    ]
+    ],
 }

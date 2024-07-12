@@ -1,9 +1,9 @@
 # pylint: disable=too-few-public-methods
 from dataclasses import dataclass, field
 
-class Event:
+class Command:
     pass
 
 @dataclass
-class SomeEvent(Event):
-    someField: str
+class SomeCommand(Command):
+    someField: str = None
